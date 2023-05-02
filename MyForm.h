@@ -120,12 +120,12 @@ namespace Calculator {
 			// 
 			// label1
 			// 
-			this->label1->BackColor = System::Drawing::Color::Black;
+			this->label1->BackColor = System::Drawing::Color::Transparent;
 			this->label1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label1->ForeColor = System::Drawing::Color::Transparent;
-			this->label1->Location = System::Drawing::Point(12, 57);
+			this->label1->ForeColor = System::Drawing::Color::Black;
+			this->label1->Location = System::Drawing::Point(13, 57);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(228, 38);
 			this->label1->TabIndex = 1;
@@ -135,8 +135,7 @@ namespace Calculator {
 			// 
 			// button2
 			// 
-			this->button2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button2->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button2->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button2->FlatAppearance->BorderSize = 0;
@@ -146,7 +145,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button2->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button2->ForeColor = System::Drawing::SystemColors::Control;
+			this->button2->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button2->Location = System::Drawing::Point(59, 185);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(41, 23);
@@ -157,8 +156,7 @@ namespace Calculator {
 			// 
 			// button3
 			// 
-			this->button3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button3->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button3->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button3->FlatAppearance->BorderSize = 0;
@@ -168,7 +166,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button3->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button3->ForeColor = System::Drawing::SystemColors::Control;
+			this->button3->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button3->Location = System::Drawing::Point(106, 185);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(41, 23);
@@ -179,8 +177,7 @@ namespace Calculator {
 			// 
 			// button4
 			// 
-			this->button4->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button4->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button4->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button4->FlatAppearance->BorderSize = 0;
@@ -190,7 +187,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button4->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button4->ForeColor = System::Drawing::SystemColors::Control;
+			this->button4->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button4->Location = System::Drawing::Point(12, 156);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(41, 23);
@@ -201,8 +198,7 @@ namespace Calculator {
 			// 
 			// button5
 			// 
-			this->button5->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button5->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button5->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button5->FlatAppearance->BorderSize = 0;
@@ -212,7 +208,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button5->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button5->ForeColor = System::Drawing::SystemColors::Control;
+			this->button5->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button5->Location = System::Drawing::Point(59, 156);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(41, 23);
@@ -223,8 +219,7 @@ namespace Calculator {
 			// 
 			// button6
 			// 
-			this->button6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button6->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button6->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button6->FlatAppearance->BorderSize = 0;
@@ -234,7 +229,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button6->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button6->ForeColor = System::Drawing::SystemColors::Control;
+			this->button6->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button6->Location = System::Drawing::Point(106, 156);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(41, 23);
@@ -245,8 +240,7 @@ namespace Calculator {
 			// 
 			// button7
 			// 
-			this->button7->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button7->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button7->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button7->FlatAppearance->BorderSize = 0;
@@ -256,7 +250,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button7->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button7->ForeColor = System::Drawing::SystemColors::Control;
+			this->button7->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button7->Location = System::Drawing::Point(12, 127);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(41, 23);
@@ -267,8 +261,7 @@ namespace Calculator {
 			// 
 			// button8
 			// 
-			this->button8->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button8->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button8->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button8->FlatAppearance->BorderSize = 0;
@@ -278,7 +271,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button8->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button8->ForeColor = System::Drawing::SystemColors::Control;
+			this->button8->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button8->Location = System::Drawing::Point(59, 127);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(41, 23);
@@ -289,8 +282,7 @@ namespace Calculator {
 			// 
 			// button9
 			// 
-			this->button9->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button9->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button9->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button9->FlatAppearance->BorderSize = 0;
@@ -300,7 +292,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button9->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button9->ForeColor = System::Drawing::SystemColors::Control;
+			this->button9->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button9->Location = System::Drawing::Point(106, 127);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(41, 23);
@@ -311,8 +303,7 @@ namespace Calculator {
 			// 
 			// button10
 			// 
-			this->button10->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button10->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->button10->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
@@ -323,7 +314,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button10->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button10->ForeColor = System::Drawing::SystemColors::Control;
+			this->button10->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button10->Location = System::Drawing::Point(12, 214);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(88, 23);
@@ -334,9 +325,9 @@ namespace Calculator {
 			// 
 			// button11
 			// 
-			this->button11->BackColor = System::Drawing::Color::Gray;
+			this->button11->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button11->FlatAppearance->BorderSize = 0;
-			this->button11->ForeColor = System::Drawing::SystemColors::Control;
+			this->button11->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button11->Location = System::Drawing::Point(12, 98);
 			this->button11->Name = L"button11";
 			this->button11->RightToLeft = System::Windows::Forms::RightToLeft::No;
@@ -348,11 +339,10 @@ namespace Calculator {
 			// 
 			// button12
 			// 
-			this->button12->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button12->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button12->FlatAppearance->BorderSize = 0;
-			this->button12->ForeColor = System::Drawing::SystemColors::Control;
+			this->button12->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button12->Location = System::Drawing::Point(200, 214);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(41, 23);
@@ -363,11 +353,10 @@ namespace Calculator {
 			// 
 			// button13
 			// 
-			this->button13->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button13->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button13->FlatAppearance->BorderSize = 0;
-			this->button13->ForeColor = System::Drawing::SystemColors::Control;
+			this->button13->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button13->Location = System::Drawing::Point(153, 127);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(41, 23);
@@ -378,11 +367,10 @@ namespace Calculator {
 			// 
 			// button14
 			// 
-			this->button14->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button14->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button14->FlatAppearance->BorderSize = 0;
-			this->button14->ForeColor = System::Drawing::SystemColors::Control;
+			this->button14->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button14->Location = System::Drawing::Point(153, 156);
 			this->button14->Name = L"button14";
 			this->button14->Size = System::Drawing::Size(41, 23);
@@ -393,11 +381,10 @@ namespace Calculator {
 			// 
 			// button15
 			// 
-			this->button15->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button15->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button15->FlatAppearance->BorderSize = 0;
-			this->button15->ForeColor = System::Drawing::SystemColors::Control;
+			this->button15->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button15->Location = System::Drawing::Point(153, 185);
 			this->button15->Name = L"button15";
 			this->button15->Size = System::Drawing::Size(41, 23);
@@ -408,11 +395,10 @@ namespace Calculator {
 			// 
 			// button16
 			// 
-			this->button16->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button16->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button16->FlatAppearance->BorderSize = 0;
-			this->button16->ForeColor = System::Drawing::SystemColors::Control;
+			this->button16->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button16->Location = System::Drawing::Point(153, 214);
 			this->button16->Name = L"button16";
 			this->button16->Size = System::Drawing::Size(41, 23);
@@ -423,8 +409,7 @@ namespace Calculator {
 			// 
 			// button1
 			// 
-			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button1->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button1->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button1->FlatAppearance->BorderSize = 0;
@@ -434,7 +419,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button1->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button1->ForeColor = System::Drawing::SystemColors::Control;
+			this->button1->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button1->Location = System::Drawing::Point(12, 185);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(41, 23);
@@ -445,8 +430,7 @@ namespace Calculator {
 			// 
 			// button17
 			// 
-			this->button17->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->button17->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button17->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button17->FlatAppearance->BorderSize = 0;
@@ -456,7 +440,7 @@ namespace Calculator {
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
 			this->button17->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->button17->ForeColor = System::Drawing::SystemColors::Control;
+			this->button17->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button17->Location = System::Drawing::Point(106, 214);
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(41, 23);
@@ -467,9 +451,9 @@ namespace Calculator {
 			// 
 			// button18
 			// 
-			this->button18->BackColor = System::Drawing::Color::Gray;
+			this->button18->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button18->FlatAppearance->BorderSize = 0;
-			this->button18->ForeColor = System::Drawing::SystemColors::Control;
+			this->button18->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button18->Location = System::Drawing::Point(59, 98);
 			this->button18->Name = L"button18";
 			this->button18->RightToLeft = System::Windows::Forms::RightToLeft::No;
@@ -481,9 +465,9 @@ namespace Calculator {
 			// 
 			// button19
 			// 
-			this->button19->BackColor = System::Drawing::Color::Gray;
+			this->button19->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button19->FlatAppearance->BorderSize = 0;
-			this->button19->ForeColor = System::Drawing::SystemColors::Control;
+			this->button19->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button19->Location = System::Drawing::Point(106, 98);
 			this->button19->Name = L"button19";
 			this->button19->RightToLeft = System::Windows::Forms::RightToLeft::No;
@@ -495,11 +479,10 @@ namespace Calculator {
 			// 
 			// button20
 			// 
-			this->button20->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button20->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button20->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button20->FlatAppearance->BorderSize = 0;
-			this->button20->ForeColor = System::Drawing::SystemColors::Control;
+			this->button20->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button20->Location = System::Drawing::Point(200, 127);
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(41, 23);
@@ -510,11 +493,10 @@ namespace Calculator {
 			// 
 			// button21
 			// 
-			this->button21->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button21->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button21->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button21->FlatAppearance->BorderSize = 0;
-			this->button21->ForeColor = System::Drawing::SystemColors::Control;
+			this->button21->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button21->Location = System::Drawing::Point(200, 156);
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(41, 23);
@@ -525,11 +507,10 @@ namespace Calculator {
 			// 
 			// button22
 			// 
-			this->button22->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button22->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button22->FlatAppearance->BorderSize = 0;
-			this->button22->ForeColor = System::Drawing::SystemColors::Control;
+			this->button22->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button22->Location = System::Drawing::Point(200, 185);
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(41, 23);
@@ -540,11 +521,10 @@ namespace Calculator {
 			// 
 			// button23
 			// 
-			this->button23->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->button23->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->button23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->button23->FlatAppearance->BorderSize = 0;
-			this->button23->ForeColor = System::Drawing::SystemColors::Control;
+			this->button23->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button23->Location = System::Drawing::Point(153, 98);
 			this->button23->Name = L"button23";
 			this->button23->Size = System::Drawing::Size(87, 23);
@@ -555,11 +535,11 @@ namespace Calculator {
 			// 
 			// label2
 			// 
-			this->label2->BackColor = System::Drawing::Color::Black;
+			this->label2->BackColor = System::Drawing::Color::Transparent;
 			this->label2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label2->ForeColor = System::Drawing::Color::Transparent;
+			this->label2->ForeColor = System::Drawing::Color::Black;
 			this->label2->Location = System::Drawing::Point(13, 25);
 			this->label2->Name = L"label2";
 			this->label2->RightToLeft = System::Windows::Forms::RightToLeft::No;
@@ -571,7 +551,6 @@ namespace Calculator {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::Color::Black;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(252, 245);
 			this->Controls->Add(this->label2);
